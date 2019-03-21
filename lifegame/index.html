@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>Conway's Game of Life</title>
+<style>
+body {
+	margin:0;
+	padding:0;
+    text-align:center;
+}
+.container {
+    display:inline-block;
+}
+
+#info-area {
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-end;
+    background:#999;
+    margin-top:10px;
+}
+#info {
+    padding:5px;
+}
+#info p {
+    margin:0;
+    color:#fff;
+    text-align:left;
+    font-weight:bold;
+    font-size:1.1em;
+}
+.btns input {
+    padding: 8px 12px;
+    font-size:1.2em;
+}
+</style>
+<div class="container">
+    <div id="info-area">
+        <div id="info">
+            <p>Generation:<span id="generation"></span></p>
+            <p>Cells:<span id="cells"></span></p>
+        </div>
+        <form class="btns">
+            <input type="button" value="Start" id="buttonStart">
+            <input type="button" value="Reset" id="buttonReset">
+            <input type="button" value="Random" id="buttonRandom">
+            <input type="button" value="Next" id="buttonNext">
+        </form>
+    </div>
+    <canvas id="world" style="display:block;margin:auto;">
+    </canvas>
+</div>
+<script src="lifegame_kai.js"></script>
