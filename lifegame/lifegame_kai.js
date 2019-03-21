@@ -1,5 +1,8 @@
 (() => {
 
+
+
+
     const SCREEN_SIZE = 1000,
         SIDE_CELLS = 70,
         CELL_SPACING = 1,
