@@ -1,7 +1,7 @@
 (() => {
     'use strict';
 
-    const SCREEN_SIZE = 1000,
+    const SCREEN_SIZE = 800,
         SIDE_CELLS = 100,
         CELL_SPACING = 1,
         CELL_SIZE = SCREEN_SIZE / SIDE_CELLS,
